@@ -16,8 +16,8 @@ void StartUp() {
     cout << "Welcome to Artillery." << endl
         << "You are in the middle of a war and being charged by thousands of enemies." << endl
         << "You have one cannon, which you can shoot at any angle." << endl
-        << "You only have 10 cannonballs for this target.." << endl
-        << "Let's begin..." << endl;
+        << "You only have " << NUMOFSCHELLS << " cannonballs for this target.." << endl
+        << "Let's begin..." << endl << endl;
 }
 
 void getCorrectInput() {
